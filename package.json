@@ -7,7 +7,8 @@
     "node": "^4.0.0"
   },
   "scripts": {
-    "test": "tape test/**/*.js"
+    "test": "tape test/**/*.js",
+    "posttest": "eslint ./"
   },
   "repository": {
     "type": "git",
