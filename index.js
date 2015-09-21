@@ -10,9 +10,10 @@ function plugin (options) {
   delete options.version;
 
   return function (value, name) {
-    if (name === 'uuid') {
+    switch (name) {
+    case 'uuid':
       return Promise.resolve(uuid['v' + version](options));
-    } else {
+    default:
       return Promise.resolve(value);
     }
   };
