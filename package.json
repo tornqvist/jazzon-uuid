@@ -1,6 +1,6 @@
 {
   "name": "jazzon-uuid",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "Generates UUID",
   "main": "index.js",
   "engines": {
@@ -25,10 +25,10 @@
   },
   "homepage": "https://github.com/tornqvist/jazzon-uuid#readme",
   "dependencies": {
-    "jazzon": "^0.1.0",
     "uuid": "^2.0.1"
   },
   "devDependencies": {
+    "jazzon": "^0.2.0",
     "eslint": "^1.5.0",
     "tape": "^4.2.0"
   }

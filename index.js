@@ -12,9 +12,9 @@ function plugin (options) {
   return function (value, name) {
     switch (name) {
     case 'uuid':
-      return Promise.resolve(uuid['v' + version](options));
+      return uuid['v' + version](options);
     default:
-      return Promise.resolve(value);
+      return value;
     }
   };
 }

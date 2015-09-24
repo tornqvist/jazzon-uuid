@@ -10,7 +10,7 @@ Supply the plugin to the `jazzon.use` method just like any other plugin.
 let jazzon = require('jazzon');
 let uuid = require('jazzon-uuid');
 let json = {
-  id: "${ uuid }"
+  id: "@{ uuid }"
 };
 
 jazzon
